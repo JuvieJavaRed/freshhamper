@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="icon-holder">
+        <a href="#"><img src="../../../assets/images/toplogo.png" height="100px" width="150px"></a>
+    </div>
+  
+    <div class="login-holder" style="border-radius: 0%; margin-left: 10px;float: right;">
+        <a routerLink="/login" class="btn btn-outline-secondary nav-link" style="color: white; " id="login-button">Logout</a>
+    </div>
+    <div class="login-holder" style="border-radius: 0%; margin-left: 10px;">
+     
+    </div>
+</nav>
+<div class="sidebar">
+    <a class="active" routerLink="/adminorders">Orders</a>
+    <a routerLink="/admincustomers">Customers</a>
+    <a  routerLink="/adminmail">Mail List</a>
+    <a  routerLink="/adminmessages">Messages</a>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="clear"></div>
+        <div class="col-md-6">
+            <h2>Order Details</h2>
+        </div>
+        <div class="col-md-6">
+            <button class="btn btn-primary" style="float: right;">Add Order</button>
+        </div>
+        <div class="col-md-12">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Client Name</th>
+                        <th>Order Number</th>
+                        <th>Package Type</th>
+                        <th>Pickup Date</th>
+                        <th>Dropoff Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+       
+    </div>
+</div>
